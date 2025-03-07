@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding:0;
     font-family: 'Arial', sans-serif;
+    
 }
 
 a {
@@ -50,13 +51,12 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 400px;
+    height: 300px;
     opacity: 0.8;
     width: 100%;
 }
 .navbar {
     display: flex;
-    /* flex-direction: flex-end; */
     padding: 15px 20px;
     font-weight: bold;
     justify-content: space-between;
@@ -70,8 +70,6 @@ ul {
     margin: 0;
     padding: 0;
     margin-right: 100px;
-    max-width: 100%;
-    flex-wrap: wrap;
 }
 .logo {
     margin-left: 80px;
@@ -153,38 +151,255 @@ ul {
 .middle-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 70px auto;
-    justify-content: center;
-    align-items: center;
-    max-width: 1100px;
-    height: 30vh;
+    grid-template-rows: 1fr;
+    margin: 30px auto;
+    max-width: 1020px;
+    gap: 10px;
+    
 }
 
 .main-left{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    
+    gap: 10px; 
 }
-
+  
 .image-main {
     grid-column: span 3;
     width: 100%; 
-    height: 350px;
+    height: 450px;
     object-fit: cover;
-
 }
-/* .multi-image {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}  */
 
 .thumbnails {
     width: 100%;
+    height: 100%;
     grid-column: span 1;
+    object-fit: cover;
 }
 
- 
+.main-right { 
+    display: grid;
+    gap: 20px;
+    
+    grid-template-columns:  1fr 1fr 1fr;
+    
+    padding: 10px;
+    margin-left: 30px;
+   
+    
+}
+
+.room-description {
+    /* margin-top: 50px; */
+    
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.1);
+    grid-column: span 3;
+    padding: 30px;
+    
+    justify-content: center;
+    text-align: center;
+}
+.lr-para {
+    text-align: left;
+    justify-content: left;
+}
+.booknow2 {
+   justify-self: left;
+    background-color:  rgb(240, 213, 172);
+    color: black;
+    padding: 10px 18px;
+    transition: background-color 0.3s;
+}
+.lxroom {
+    justify-self: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lr-para {
+    font-size: 16px;
+}
+.one-twentyd {
+    font-size: 23px;
+    color: #b88415;
+}
+
+.luxury-para {
+    text-align: left;
+    justify-content: left;
+    line-height: 1.8;
+    width: 300px;
+    
+}
+
+
+
+.facilities {
+    grid-column: span 3;
+    box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+.facility-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.8;
+
+    
+}
+.info {
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 1000px;
+}
+
+.more-information {
+    grid-column: span 3;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.mi-head {
+    font-size: 26px;
+
+}
+
+.mi-para { 
+    width: 800px;
+    line-height: 1.5;
+}
+
+.next-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+    height: 400px;
+    /* margin-bottom: 0; */
+}
+
+.our-rooms {
+    background-image: url(/img/bedroom_image1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(182, 142, 56);
+    opacity: 0.8;
+    
+   
+}
+
+.gentext {
+    justify-self: center;
+    align-self: center;
+    margin-top:100px;
+    
+}
+
+.o-rooms {
+    font-size: 50px;
+}
+.o-roomstext {
+    line-height: 1.5;
+    width: 700px;
+    font-weight: bold;
+}
+
+.contact-us {
+    background-color: rgb(228, 199, 138);
+    width:
+}
+
+.contactus-head {
+    font-size: 50px;
+}
+
+.contactus-text {
+    line-height: 1.5;
+    width: 600px;
+
+}
+
+.gentext2 {
+    justify-self: center;
+    align-self: center;
+    margin-top:100px;
+    
+}
+
+.underline {
+    text-decoration: underline;
+
+}
+
+.subscribe {
+    /* display: grid;
+    place-content: center; */
+    margin-top: 0; 
+    background-color: rgb(52, 57, 65);
+    height: 500px;
+    color: white;
+   
+
+}
+.sub-content {
+    display: grid;
+    place-content: center;
+    
+    
+}
+
+.email {
+    
+    width: 400px;
+    
+    background-color: white;
+}
+
+.email-text {
+    color: black;
+    
+
+}
+
+.last-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.a {
+    margin-left: 100px;
+    width: 700px;
+}
+.last-text {
+    line-height: 1.5;
+    width: 400px;
+}
+
+.plane {
+    margin-left: 280px;
+}
+
+
+footer {
+    display: grid;
+    background-color: rgb(22, 22, 29);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Fixes */
  /* @media (max-width: 768px) {
     .menu-btn {
